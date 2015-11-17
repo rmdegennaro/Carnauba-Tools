@@ -1,0 +1,12 @@
+{
+  "name": "Chrome Tools",
+  "description": "Stuff to help with Chrome Apps and Google Services.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "chrometools-16.png", "128": "chrometools-128.png" }
+}
